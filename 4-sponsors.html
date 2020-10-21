@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <script src="https://kit.fontawesome.com/168b45207e.js" crossorigin="anonymous"></script>
+  
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,600;0,800;1,300;1,400;1,600;1,800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./styles/main.css"> 
+    <link rel="shortcut icon" href="./images/eventoTI-favicon-180x180.png" type="image/x-icon"> 
+  
+    <title>Evento TI - Home</title>
+  </head>
+
+<body>
+
+  <header>
+    <div class="imagen-fondo">
+      <div class="nombre-evento">
+        <h1>¡Bienvenido a "Evento TI"!</h1>
+      </div>
+    </div>
+    <nav>
+      <ul>
+        <li><a href="./1-home.html">Home</a></li>
+        <li><a href="./2-oradores.html">Oradores</a></li>
+        <li><a href="./3-comoLlegar.html">Cómo Llegar</a></li>
+        <li><a href="./4-sponsors.html">Sponsors</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <div class="contenedor-main-content">
+      <div class="sponsors-content"></div>
+    </div>
+    <div class="contendedor-formulario">
+      <h2>Formulario de Inscripción</h2>
+      <form action="./recepcionFormulario.html">
+        
+        <label for="nombre">Nombre:* 
+          <input type="text" name="nombre" id="nombre" placeholder="Andrea" required autofocus>
+        </label>
+
+        <label for="apellido">Apellido:*
+          <input type="text" name="apellido" id="apellido" placeholder="Castañeda" required>
+        </label>
+        
+        <label for="email">Correo Electrónico:*
+          <input type="email" name="email" id="email" placeholder="ejemplo@correo.com" required>
+        </label>
+        
+        <label for="telefono">Teléfono:*
+          <input type="tel" name="telefono" id="telefono" placeholder="(prefijo)-número de teléfono" required>
+        </label>
+
+      <p>* Campos necesarios para el envío del formulario</p>
+
+        <button type="submit">Enviar</button>
+      </form>
+    </div>
+  </main>
+  
+  <footer>
+    <div class="contenedor-otros-eventos">
+      <h4>Otros Eventos</h4>
+      <ul><a href="#"></a>Bootcamp TI</ul>
+      <ul><a href="#"></a>Foro TI</ul>
+      <ul><a href="#"></a>Congreso Virtual TI</ul>
+    </div>
+    
+    <div class="contenedor-contacto">
+      <h4>Contacto</h4>
+      <ul>
+        <li>Calle 140 # 7-33, Of. 404</li>
+        <li>Bogotá, Colombia</li>
+        <li>(+57) 1 243-4567 / (+57) 312 823-4521</li>
+        <li>eventoti@gmail.org</li>
+      </ul>
+    </div>
+    
+    <div class="contenedor-redes">
+      <h4>Nuestras Redes Sociales</h4>
+      <div class="contenedor-twitter"></div>
+      <div class="contenedor-instagram"></div>
+      <div class="contenedor-facebook"></div>
+    </div>
+  </footer>
+</body>
+</html>

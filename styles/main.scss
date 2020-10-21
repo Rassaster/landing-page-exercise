@@ -1,0 +1,19 @@
+// Este documento solo será usado para @imports.
+
+// 0-Base
+@import './0-base/variables';
+@import './0-base/reset';
+@import './0-base/global';
+
+// 1-Layout
+@import './1-layout/header';
+@import './1-layout/main';
+@import './1-layout/footer';
+
+// 2-Modules
+@import './2-modules/nav'; 
+@import './2-modules/form'; 
+@import './2-modules/acercaDe'; 
+@import './2-modules/oradores'; 
+@import './2-modules/comoLllegar'; 
+@import './2-modules/sponsors';
